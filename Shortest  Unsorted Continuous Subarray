@@ -1,0 +1,30 @@
+class Solution {
+    public int findUnsortedSubarray(int[] nums) {
+        //start: pointer jaha right wala greater h (right-->left)
+        //end: previous wali value greater h (left-->right)
+        int max=nums[0];
+        int min=nums[nums.length-1];
+        int start=-1,end=0;
+        for(int i=1;i<nums.length;i++)
+        {
+            if(nums[i]<max)
+            {
+               start=i; 
+            }
+            else{
+                max=nums[i];
+            }
+        }
+        for(int i=nums.length-2;i>=0;i--)
+        {
+            if(nums[i]>min)
+            {
+                end=i;
+            }
+            else{
+                min=nums[i];
+            }
+        }
+        return start-end+1;
+    }
+}
