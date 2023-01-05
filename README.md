@@ -1,6 +1,7 @@
 # -ReviseWithArsh
 Solving previous questions asked in interviews of top tech companies:
-1. MICROSOFT
+MICROSOFT
+
 Day 1-
 i. Evaluate reverse polish notation
 ii. combination sum III
