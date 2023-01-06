@@ -28,3 +28,11 @@ Day 5-
 i. airplane seat assignment probability
 ii. minimum deletions to make array divisible
 iii. number of substrings containing all three characters
+
+
+GOLDMAN SACHS
+
+Day 6-
+i. max points on a line
+ii. valid square
+iii. factorial trailing zeroes
